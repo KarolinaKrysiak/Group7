@@ -195,6 +195,7 @@ html {
 .play {
 	width: 100px;
 	margin: 30px;
+	cursor: pointer;
 }
 
 .controls {
