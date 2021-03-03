@@ -232,6 +232,7 @@ html {
 
 .column_text {
 	background-color: #feeaf6;
+	height: 230px;
 	padding: 20px;
 	margin-top: 50px;
 }
@@ -318,6 +319,3 @@ html {
 	margin: 110px 10px 0;
 }
 
-.copyright {
-	text-align: center;
-}
