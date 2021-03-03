@@ -1,0 +1,323 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	overflow-x: hidden;
+}
+
+.page_body {
+	font-family: Lato, Geneva, sans-serif;
+	color: #333333;
+	max-width: 1680px;
+
+}
+
+.intro_box {
+	height: 753px;
+	border-bottom: solid 20px #591c48;
+	border-top: solid 20px #591c48;
+	z-index: 10;
+	background-color: #f4d0ea;
+}
+
+.intro {
+	margin: 250px 100px;
+}
+
+.name {
+	margin-bottom: 20px;
+	font-size: 90px;
+	font-weight: lighter;
+}
+
+.underline1 {
+	width: 200px;
+	height: 1.5px;
+	background-color: #feeaf6;
+}
+
+.description {
+	margin-top: 20px;
+}
+
+
+
+.circle1 {
+	z-index: 2;
+	position: absolute;
+	left: 300px;
+	top: 450px;
+	border-radius: 100px;
+	height: 150px;
+	width: 150px;
+	background-color: #591c48;
+}
+
+.circle2 {
+	z-index: 2;
+	position: absolute;
+	right: -130px;
+	top: -80px;
+	border-radius: 2000px;
+	height: 550px;
+	width: 550px;
+	background-color: #591c48;
+}
+
+.circle3 {
+	z-index: 2;
+	position: absolute;
+	right: 390px;
+	top: 400px;
+	border-radius: 2000px;
+	height: 280px;
+	width: 280px;
+	background-color: #feeaf6;
+}
+
+.circle4 {
+	z-index: 2;
+	position: absolute;
+	left: 90px;
+	top: 70px;
+	border-radius: 2000px;
+	height: 150px;
+	width: 150px;
+	background-color: #feeaf6;
+}
+
+.circle_pic {
+	max-width: 280px;
+	border-radius: 1000px;
+	z-index: 2;
+	position: absolute;
+	right: 500px;
+	top: 300px;
+}
+
+
+.about_section {
+	height: 753px;
+	background-color: white;
+	display: flex;
+	align-content: space-between;
+}
+
+.about_box {
+	width: 400px;
+	margin: auto;
+}
+
+.about_header {
+	text-align: center;
+	font-size: 90px;
+	font-weight: lighter;
+}
+
+.underline2 {
+	width: 150px;
+	height: 1.5px;
+	background-color: #f4d0ea;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.about_small_box {
+	background-color: #f4d0ea;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.quote {
+	margin-top: 50px;
+}
+
+.profile_pic_box {
+	display: flex;
+	margin: auto 0;
+}
+
+.pofile_pic1 {
+	max-height: 500px;
+	margin-left: 50px;
+}
+
+.pofile_pic2 {
+	max-height: 500px;
+	margin-top: 170px;
+}
+
+.video_box {
+	min-height: 830px;
+	background-color: #591c48;
+}
+
+.line1 {
+	background-color: #f4d0ea;
+	position: relative;
+	top: 100px;
+	width: 400px;
+	height: 5px;
+}
+
+.line2 {
+	background-color: #f4d0ea;
+	position: relative;
+	top: 150px;
+	width: 550px;
+	height: 5px;
+}
+
+.line3 {
+	background-color: #f4d0ea;
+	position: relative;
+	width: 500px;
+	height: 5px;
+}
+
+.video {
+	width: 800px;
+	display: block;
+	margin: auto;
+	margin-top: 190px;
+}
+
+.play {
+	width: 100px;
+	margin: 30px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+}
+
+
+.gd_section {
+	height: 800px;
+	background-color: white;
+}
+
+.gd_header {
+	text-align: center;
+	margin: 70px;
+	font-size: 90px;
+	font-weight: lighter;
+}
+
+.columns {
+	display: flex;
+	justify-content: space-around;
+	margin: auto 200px;
+}
+
+.column {
+	max-width: 400px;
+}
+
+.column_pic {
+	width: 400px;
+}
+
+.column_text {
+	background-color: #f4d0ea;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+
+.photography_section {
+	padding: 90px;
+	background-color: #f4d0ea;
+}
+
+.photography_header {
+	text-align: center;
+	font-size: 90px;
+	font-weight: lighter;
+}
+
+.photogallery {
+	margin: 50px 200px;
+	display: flex;
+}
+
+.quote_photos {
+	text-align: center;
+}
+
+.photo {
+	width: 250px;
+	margin: 40px;
+}
+
+.logos_section {
+	padding: 90px;
+}
+
+.logos_header {
+	text-align: center;
+	font-size: 90px;
+	font-weight: lighter;
+}
+
+.logo_line {
+	width: 200px;
+	height: 1.5px;
+	background-color: #f4d0ea;
+	margin: auto;
+}
+
+.logos {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.page_footer {
+	margin-bottom: 0;
+	width: 100%;
+	background-color: #f4d0ea;
+	border-top: solid 20px #591c48;
+	padding: 20px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.footer_header {
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.contact {
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.some_links {
+	margin-bottom: 0;
+}
+
+.some_icon {
+	height: 30px;
+	margin: 125px 10px 0;
+}
+
+.copyright {
+	text-align: center;
+}
