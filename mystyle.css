@@ -131,7 +131,7 @@ html {
 }
 
 .about_small_box {
-	background-color: #f4d0ea;
+	background-color: #feeaf6;
 	text-align: center;
 	margin-bottom: 20px;
 	padding: 20px;
@@ -230,7 +230,7 @@ html {
 }
 
 .column_text {
-	background-color: #f4d0ea;
+	background-color: #feeaf6;
 	padding: 20px;
 	margin-top: 50px;
 }
@@ -281,7 +281,9 @@ html {
 .logos {
 	display: flex;
 	flex-direction: column;
+	margin: 20px 170px 0;
 }
+
 
 
 .page_footer {
