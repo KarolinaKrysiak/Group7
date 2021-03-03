@@ -1,9 +1,13 @@
-var myVideo = document.getElementById("video");
+var video = document.getElementById("video");
+video.width = 500;
+video.controls = true;
 
-function playVideo() {
-	myVideo.play();
+function play() {
+	if (video.paused) {
+		video.play();
+		video.controls = false;
+	} else {
+		video.pause();
+		video.controls = true;
+	}
 }
-
-function pauseVideo() { 
- myVideo.pause(); 
-} 
