@@ -282,7 +282,7 @@ html {
 .logos {
 	display: flex;
 	flex-direction: column;
-	margin: 20px 170px 0;
+	margin: 50px 170px;
 }
 
 
@@ -292,13 +292,13 @@ html {
 	width: 100%;
 	background-color: #f4d0ea;
 	border-top: solid 20px #591c48;
-	padding: 20px;
+	padding: 40px 0 10px;
 }
 
 .footer {
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .footer_header {
@@ -312,13 +312,10 @@ html {
 	margin-top: 5px;
 }
 
-.some_links {
-	margin-bottom: 0;
-}
 
 .some_icon {
-	height: 30px;
-	margin: 125px 10px 0;
+	height: 35px;
+	margin: 110px 10px 0;
 }
 
 .copyright {
