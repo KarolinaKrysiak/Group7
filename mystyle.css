@@ -14,7 +14,7 @@ html {
 }
 
 .page_body {
-	font-family: Lato, Geneva, sans-serif;
+	font-family: Lato, Geneva, serif;
 	color: #333333;
 	max-width: 1680px;
 
@@ -24,8 +24,8 @@ html {
 	height: 753px;
 	border-bottom: solid 20px #591c48;
 	border-top: solid 20px #591c48;
-	z-index: 10;
 	background-color: #f4d0ea;
+	width: 100%;
 }
 
 .intro {
