@@ -12,3 +12,7 @@ function play() {
 	}
 }
 
+profile_pic1.onmouseenter = function(){
+this.classList.add('animation');
+}
+
