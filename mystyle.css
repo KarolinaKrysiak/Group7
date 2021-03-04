@@ -140,27 +140,31 @@ html {
 	margin-top: 50px;
 }
 
-.profile_pic_box {
-	
-}
+.profile_pic_box {}
 
 #pofile_pic1 {
 	max-height: 500px;
 	position: relative;
+	top: 200px;
 	z-index: 1;
 }
 
 #pofile_pic2 {
 	max-height: 500px;
 	position: relative;
+	top: 0;
 }
 
 .animation {
-	animation: float 1s  ease-out forwards;
+	animation: float 1s ease-out forwards;
+	animation-delay: 2s;
+
 }
 
 .animation2 {
-	animation: float2 1s  ease-out forwards;
+	animation: float2 1s ease-out forwards;
+	animation-delay: 2s;
+
 }
 
 @keyframes float {
