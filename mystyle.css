@@ -26,6 +26,7 @@ html {
 	border-top: solid 20px #591c48;
 	background-color: #f4d0ea;
 	width: 100%;
+	z-index: 10;
 }
 
 .intro {
@@ -140,19 +141,46 @@ html {
 }
 
 .profile_pic_box {
-	display: flex;
-	margin: auto 0;
+	
 }
 
-.pofile_pic1 {
+#pofile_pic1 {
 	max-height: 500px;
 	position: relative;
 	z-index: 1;
 }
 
-.pofile_pic2 {
+#pofile_pic2 {
 	max-height: 500px;
-	margin-top: 170px;
+	position: relative;
+}
+
+.animation {
+	animation: float 1s  ease-out forwards;
+}
+
+.animation2 {
+	animation: float2 1s  ease-out forwards;
+}
+
+@keyframes float {
+	from {
+		top: 200px;
+	}
+
+	to {
+		top: 30px;
+	}
+}
+
+@keyframes float2 {
+	from {
+		top: 0;
+	}
+
+	to {
+		top: 220px;
+	}
 }
 
 .video_box {
